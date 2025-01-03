@@ -92,3 +92,6 @@ sudo systemctl status tomcat.service
 sudo journalctl -xeu tomcat.service
 
 echo "Script completed."
+# make the script executable and run it 
+chmod +x$0
+sudo $0
