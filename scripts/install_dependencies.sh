@@ -92,4 +92,3 @@ sudo systemctl status tomcat.service
 sudo journalctl -xeu tomcat.service
 
 echo "Script completed."
-

@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        GIT_REPO_URL = 'https://github.com/PrashantShukla001/CodeDeployRepo.git'
+        GIT_REPO_URL = 'https://github.com/Kirankale11/CodeDeployRepo.git'
         APPLICATION_NAME = 'NewApplicationCodeDeploy'
         DEPLOYMENT_GROUP_NAME = 'Deployment-group'
     }
@@ -59,4 +59,3 @@ pipeline {
         }
     }
 }
-
